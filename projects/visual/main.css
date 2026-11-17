@@ -1,0 +1,131 @@
+body{
+    background-image: url("imgs/homepage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: lightgray;
+
+
+    .cctv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+   .iphone {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        height: 50vh;
+        position: absolute;
+        top: 70%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+   .id {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 140vh;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+    .paper {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 70vh;
+        position: absolute;
+        top: 100%;
+        left: 2%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+
+
+#button1-page {
+    background-image: url("imgs/elevator.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: lightgray;
+
+    img {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+#button2-page {
+    background-image: url("imgs/cloudy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: lightgray;
+
+}
+
+#button3-page {
+    background-image: url("imgs/room1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: lightgray;
+
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    img:hover, img:focus, img:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+}
+    
+#button4-page {
+background-image: url("imgs/paperperson.gif");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+margin: 0;
+background-color: lightgray;
+}
+
+
+    
+
+
+
+
+
+
+
